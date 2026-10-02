@@ -1,0 +1,9 @@
+// Edit these three values, then everything else follows.
+// Your 10-character Team ID (Xcode > Settings > Accounts), or leave blank and pick the team in Signing & Capabilities.
+DEVELOPMENT_TEAM =
+// Must be unique to you. Example: com.yourname.dailybreakthrough
+APP_BUNDLE_ID = com.example.dailybreakthrough
+// Must start with "group."
+APP_GROUP_ID = group.com.example.dailybreakthrough
+// Where the app reads the daily JSON. The repo must be public for raw.githubusercontent.com to work without a token, or point this at your own server.
+FEED_URL = https:/$()/raw.githubusercontent.com/ethanmlam/daily-breakthrough/main/feed.json
